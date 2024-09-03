@@ -273,15 +273,21 @@ p {
 	padding: 100px 0;
 }
 #services .service-top {
-	max-width: 500px;
+	
+	max-width: 700px;
 	margin: 0 auto;
 }
+.ab{
+	color: rgb(0, 0, 0);
+	text-decoration-color: black;
+}
+
 #services .service-bottom {
 	display: flex;
-	align-items: center;
+
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-top: 50px;
+	margin-top: 70px;
 }
 #services .service-item {
 	flex-basis: 80%;
@@ -291,13 +297,15 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url();
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
 }
+
+
 #services .service-item::after {
 	content: '';
 	position: absolute;
